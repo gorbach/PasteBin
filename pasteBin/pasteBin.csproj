@@ -116,6 +116,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\CopyController.cs" />
+    <Compile Include="Migrations\201701310016488_ImageBinary.cs" />
+    <Compile Include="Migrations\201701310016488_ImageBinary.Designer.cs">
+      <DependentUpon>201701310016488_ImageBinary.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\db.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -239,6 +243,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201612032048495_MigrationAddImage.resx">
       <DependentUpon>201612032048495_MigrationAddImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701310016488_ImageBinary.resx">
+      <DependentUpon>201701310016488_ImageBinary.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
